@@ -94,11 +94,11 @@ body
     margin-top: 3px;
     position: relative;
 }
-.drawtool-colors .drawtool-option:nth-child(1){background: #fff; border: 1px solid #bfbfbf;}
-.drawtool-colors .drawtool-option:nth-child(2){background: #000;}
-.drawtool-colors .drawtool-option:nth-child(3){background: #E02020;}
-.drawtool-colors .drawtool-option:nth-child(4){background: #6DD400;}
-.drawtool-colors .drawtool-option:nth-child(5){background: #4A98F7;}
+.drawtool-colors .drawtool-option:nth-child(1){background-color: #fff; border: 1px solid #bfbfbf;}
+.drawtool-colors .drawtool-option:nth-child(2){background-color: #000;}
+.drawtool-colors .drawtool-option:nth-child(3){background-color: #E02020;}
+.drawtool-colors .drawtool-option:nth-child(4){background-color: #6DD400;}
+.drawtool-colors .drawtool-option:nth-child(5){background-color: #4A98F7;}
 .drawtool-colors .drawtool-option.selected::before
 {
     position: absolute;
@@ -153,4 +153,9 @@ body
 .drawing-board
 {
     flex: 1;
+}
+.drawing-board canvas
+{
+    width: 100%;
+    height: 100%;
 }
